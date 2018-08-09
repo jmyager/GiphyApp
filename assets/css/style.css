@@ -1,0 +1,46 @@
+body {
+    margin: 10px;
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Work Sans', sans-serif;
+}
+
+.jumbotron {
+    padding-bottom: 2%;
+}
+
+.searchBar, .searchBtn {
+    margin: 0;
+    padding: 0;
+}
+
+.searchBar {
+    float: left;
+    width: 70%;
+}
+
+.searchBtn {
+    float: left;
+    width: 25%;
+    color: white;
+    border: none;
+    padding: 2px;
+    background: #b92b27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.movieButton {
+    border-color: #1565C0;  /* fallback for old browsers */
+    color: #1565C0;
+    /* transition: 1s; */
+}
+
+.movieButton:hover {
+    color: white;
+    background: #b92b27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+}
